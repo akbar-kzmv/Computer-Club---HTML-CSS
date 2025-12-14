@@ -14,14 +14,22 @@ a:hover {
   color: red;
 }
 
+#navback {
+  position: fixed;
+  background-color: #292336;
+  width: 100%;
+  height: 100px;
+  z-index: 2;
+}
+
 #nav {
   list-style: none;
   display: block;
   float: left;
   position: fixed;
-  top: 56px;
+  top: 40px;
   left: 50px;
-  z-index: 2;
+  z-index: 3;
 }
 
 #nav li {
@@ -48,7 +56,7 @@ a:hover {
   position: absolute;
   left: 443px;
   top: 175px;
-  z-index: 0;
+  z-index: 2;
 }
 
 #headtitle {
@@ -59,7 +67,7 @@ a:hover {
   font-family: 'Urbanist', cursive;
   font-weight: bold;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 #headintro {
@@ -69,13 +77,47 @@ a:hover {
   padding-top: 220px;
   padding-left: 443px;
   padding-right: 800px;
+  position: relative;
+  z-index: 2;
 }
 
 #headimage {
   width: 300px;
   height: 300px;
   background-image: url("https://assets.kpmg.com/is/image/kpmgcloud/ie-gaming-gains:cq5dam-web-656-656?wid=328&hei=328");
-  margin-top: -250px;
+  margin-top: -215px;
   margin-left: 1200px;
   opacity: 0.5;
+  position: relative;
+  z-index: 2;
+}
+
+.bodytitle {
+  color: black;
+  text-align: center;
+  font-family: "Urbanist", cursive;
+  font-size: 70px;
+  font-weight: bold;
+  padding-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.bodytitleback {
+  background-color: #8aebf2;
+  width: 270px;
+  height: 40px;
+  position: absolute;
+  left: 820px;
+  top: 520px;
+  z-index: 0;
+}
+
+.bodytext {
+  font-family: "Urbanist", cursive;
+  font-size: 27px;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 500px;
+  margin-top: 15px;
 }
