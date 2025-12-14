@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Saira:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+#nav {
+  list-style: none;
+  display: block;
+  float: left;
+  position: fixed;
+  top: 56px;
+  left: 50px;
+  z-index: 2;
+}
+
+#nav li {
+  display: inline;
+  color: white;
+  font-family: 'Urbanist', cursive;
+  font-size: 23px;
+}
+
+#nav li:not(:first-of-type) {
+  margin-left: 30px;
+}
+
+#head {
+  background: #292336;
+  width: 100%;
+  height: 450px;
+}
+
+#headtitleback {
+  background: #71cf6d;
+  width: 350px;
+  height: 30px;
+  position: absolute;
+  left: 443px;
+  top: 175px;
+  z-index: 0;
+}
+
+#headtitle {
+  color: white;
+  font-size: 70px;
+  padding-left: 450px;
+  padding-top: 130px;
+  font-family: 'Urbanist', cursive;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+}
+
+#headintro {
+  color: white;
+  font-size: 20px;
+  font-family: 'Urbanist', cursive;
+  padding-top: 220px;
+  padding-left: 443px;
+  padding-right: 800px;
+}
+
+#headimage {
+  width: 300px;
+  height: 300px;
+  background-image: url("https://assets.kpmg.com/is/image/kpmgcloud/ie-gaming-gains:cq5dam-web-656-656?wid=328&hei=328");
+  margin-top: -250px;
+  margin-left: 1200px;
+  opacity: 0.5;
+}
